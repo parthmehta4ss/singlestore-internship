@@ -1,0 +1,11 @@
+--- base.yaml	2026-01-27 12:52:47.402523528 +0530
++++ dev.yaml	2026-01-27 12:52:53.862131603 +0530
+@@ -14,7 +14,7 @@
+ metadata:
+   name: meeting-room-booking
+ spec:
+-  replicas: 1
++  replicas: 2
+   selector:
+     matchLabels:
+       app: meeting-room-booking
